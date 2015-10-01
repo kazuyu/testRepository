@@ -1,0 +1,137 @@
+<!DOCTIPE html>
+<html lang="ja">
+  <head>
+      <meta charset="utf-8">・・
+      <meta name"description" content="はじめてのHTML文書です。"> //検索
+      <!-- コメント -->
+      <title>はじめてのHTML</title>
+      <link rel="shorcut icon" href="mystyles.css">  //アイコンの設定
+      <!--
+      <style>
+        body{ background: skyblue; }
+      </style>
+    -->
+    </head>
+    <body>
+    <!--
+    header:
+    footer:
+    article: 独立しているコンテンツ
+    aside: 副次的なコンテンツ
+    section: それ以外の情報の塊
+    h1 - h6
+    グローバス属性
+    id: ひとつしかない要素
+    class:複数ある要素
+    style:スタイルを直接指定
+    p: 段落
+    hr: 水平線　罫線
+    pre: 改行や字下げを保持
+    blockquote: 引用
+    div:スタイリング
+    ol(orderd list) / ul(undered list) / li(list item)
+    dl(definition list) / dt(definition term) / dd(definition desctiprion)
+    strong
+    a リンク
+    table
+    thead
+    tbody
+    tr : table row(行)
+    th: table header(見出し)
+    td: table data
+  -->
+  <header>
+    <h1>おいしいごはん！</h1>
+    <nav>
+        - ホーム
+        - このサイトについて
+        - プロフィール
+    </nav>
+  </header>
+  <section>
+      <h1>今月のおいしいごはん</h1>
+      <article>
+        <h1>美味しいご飯</h1>
+        <div>
+          <p>バンビーナ  <a href="#stuff">材料に</a></p>
+          <h2 id="stuff">材料</h2>
+          <ul>
+              <li><span style="color: gold;">卵</span></li>
+              <li><br><strong>恐怖の</strong></br>醤油</li>
+              <li>ごはん</li>
+              <p>
+                <a href="food.jpg" target="_blank"><img src="food.jpg" width="150" height="150" alt="おじさん" /></a>
+              </p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Size</th><th>Price</th>
+                  </tr>
+                  <tbody>
+                    <tr>
+                      <td>
+                        S
+                      </td><td>
+                        150
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        M
+                      </td>
+                      <td>
+                        230
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        free for kids!
+                      </td>
+                    </tr>
+                  </tbody>
+                </thead>
+              </table>
+          </ul>
+          <h2>手順</h2>
+          <ol>
+            <li>まぜる</li>
+            <li>かける</li>
+            <li><a href="http:www.google.com" target="_blank">神</a></li>
+            <li><a href="more.html">ココ！</a></li>
+          </ol>
+          <h2>定義</h2>
+          <dl class="">
+            <dt>TKKK</dt>
+            <dt>パンツ</dt>
+          </dl>
+
+
+          <hr>
+          <p>ところであの件は・・・？</p>
+        </div>
+        <pre>
+          foobar
+            foobar
+              foobar
+        </pre>
+        <blockquote cite="http://">
+          KFFF最高！ by @taguchi
+        </blockquote>
+      </article>
+  </section>
+  <section>
+      <h1>新着の美味しいご飯</h1>
+      <article>
+        <h1>おいしいごはん</h1>
+        ほもしゃぶ
+      </article>
+      <article>
+        <h1>おいしいごはん</h1>
+        スリランカカレー
+      </article>
+    </section>
+  <footer>
+    このサイトはリョナフレンズによって運営されてる。
+  </footer>
+    </body>
+  </html>
